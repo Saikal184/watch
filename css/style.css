@@ -146,6 +146,9 @@ img {
     font-weight: 300;
     line-height: 170%;
     width: 515px;
+    span {
+      color: orange;
+    }
   }
 }
 .center {
