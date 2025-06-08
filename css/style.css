@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: League Spartan;
+  border: none;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+#main {
+  padding-block: 60px;
+  background: #f8f8f8;
+}
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .main-text {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h6 {
+      color: #161515;
+      font-weight: 300;
+      font-size: 24px;
+    }
+    h1 {
+      font-weight: 300;
+      font-size: 250px;
+      color: #272727;
+    }
+    p {
+      color: #161515;
+      font-size: 32px;
+      font-weight: 300;
+      width: 575px;
+      line-height: 155%;
+    }
+    .main-btns {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+button {
+  background: #161515;
+  width: 278px;
+  height: 82px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 300;
+}
+.second-btn {
+  color: #272727;
+  width: 143px;
+  background: #d6d6d640;
+}
+img {
+  width: 320px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  h4 {
+    color: #161515;
+    font-weight: 400;
+    font-size: 72px;
+  }
+  h6 {
+    color: #000000;
+    font-weight: 300;
+    font-size: 24px;
+  }
+  img {
+    width: 286px;
+    background: #f8f8f8;
+  }
+}
+.watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  p {
+    color: #161515;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 155%;
+    width: 531px;
+  }
+  h5 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 32px;
+  }
+}
+#product {
+  padding-block: 50px;
+}
+.product2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  padding-block: 50px;
+
+  img {
+    width: 500px;
+    background: #f8f8f8;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #161515;
+  }
+  p {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 300;
+    width: 510px;
+    line-height: 155%;
+  }
+}
+.product3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  padding-block: 60px;
+  h3 {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 400;
+  }
+  p {
+    color: #161515;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 170%;
+    width: 515px;
+  }
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.line {
+  height: 2px;
+  width: 120px;
+  background: #000;
+}
